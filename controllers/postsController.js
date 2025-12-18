@@ -41,7 +41,8 @@ function modify(req, res)
 
 function destroy(req, res)
 {
-    const postIndex = postList.findIndex((post) => post.id === req.params.id);
+    const postIndex = postList.findIndex((post) => post.id === parseInt(req.params.id));
+    console.log(postIndex);
 
     if(postIndex === -1)
     {
@@ -50,8 +51,8 @@ function destroy(req, res)
     }
 
     postList.splice(postIndex, 1);
-    res.sendStatus(204);
     console.log(postList);
+    res.sendStatus(204);
 }
 
 const controller = {
