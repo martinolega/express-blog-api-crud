@@ -3,10 +3,10 @@ import postRouter from "./routers/posts.js";
 import postList from "./data/postList.js";
 
 const app = express();
+app.use(express.json());
 const port = 3000;
 
 app.use(express.static("public"));
-
 app.use("/posts", postRouter);
 
 app.listen(port, () => {
@@ -18,5 +18,5 @@ app.get("/", (req, res) => {
 });
 
 app.get("/bacheca", (req, res) => {
-    res.json(postList);
+    res.json(postList);    
 });

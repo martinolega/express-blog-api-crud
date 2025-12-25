@@ -4,35 +4,64 @@ const postList = [
         title: "Chaos Orb",
         body: "{1}, {T}: If this artifact is on the battlefield, flip it onto the battlefield from a height of at least one foot. If this artifact turns over completely at least once during the flip, destroy all nontoken permanents it touches. Then destroy this artifact.",
         img: "/img/Chaos_Orb.jpg",
-        tags: ["Artifact"]
+        tags: ["Artifact"],
+        color: [""],
     },
     {
         id: 2,
         title: "Juggernaut",
         body: "This creature attacks each combat if able.\nThis creature can't be blocked by Walls.",
         img: "/img/Juggernaut.jpg",
-        tags: ["Artifact", "Creature"]
+        tags: ["Artifact", "Creature"],
+        color: [""],
     },
     {
         id: 3,
         title: "Sengir Vampire",
         body: "Flying (This creature can’t be blocked except by creatures with flying or reach.)\nWhenever a creature dealt damage by this creature this turn dies, put a +1/+1 counter on this creature.",
         img: "/img/Sengir_Vampire.jpg",
-        tags: ["Creature"]
+        tags: ["Creature"],
+        color: ["B"],
     },
     {
         id: 4,
         title: "Swords to Plowshares",
         body: "Exile target creature. Its controller gains life equal to its power.",
         img: "/img/Swords_to_Plowshares.jpg",
-        tags: ["Instant"]
+        tags: ["Instant"],
+        color: ["W"],
     },
     {
         id: 5,
         title: "Tropical Island",
         body: "({T}: Add {G} or {U}.)",
         img: "/img/Tropical_Island.jpg",
-        tags: ["Land"]
+        tags: ["Land"],
+        color: [""],
+    },
+    {
+        id: 6,
+        title: "Wheel of Fortune",
+        body: "Each player discards their hand, then draws seven cards.",
+        img: "/img/Wheel_of_Fortune.jpg",
+        tags: ["Sorcery"],
+        color: ["R"],
+    },
+    {
+        id: 7,
+        title: "Dark Ritual",
+        body: "Add {B}{B}{B}.",
+        img: "/img/Dark_Ritual.jpg",
+        tags: ["Instant"],
+        color: ["B"],
+    },
+    {
+        id: 8,
+        title: "Nicol Bolas",
+        body: "Flying\nAt the beginning of your upkeep, sacrifice Nicol Bolas unless you pay {U}{B}{R}.\nWhenever Nicol Bolas deals damage to an opponent, that player discards their hand.",
+        img: "/img/Nicol_Bolas.jpg",
+        tags: ["Creature"],
+        color: ["U", "B", "R"],
     },
 ];
 
